@@ -18,7 +18,9 @@ body {
   color: #09C6AB;
   background: #fff;
 }
- 
+ #hedding{
+   text-align: center;
+ }
 .header-logo img {
   width: 70px;
   height: 70px;
@@ -418,10 +420,11 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   background: #fff;
 }
+/* setting for software develpoment */
 @media screen and (max-width: 768px) {
   .fh5co-cover.fh5co-cover-sm .display-t,
   .fh5co-cover.fh5co-cover-sm .display-tc {
-    height: 200px;
+    height: 100px;
   }
 }
 
@@ -455,7 +458,7 @@ h1, h2, h3, h4, h5, h6, figure {
   .fh5co-cover .display-tc h1 {
     font-size: 25px;
     background: #fff;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
   }
 }
 #fh5co-header .display-tc h2,
