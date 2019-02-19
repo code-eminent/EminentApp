@@ -14,7 +14,7 @@ module.exports = {
       secure: true, // use SSL
       auth: {
           user: 'dontreply@eminentinnovative.com',
-          pass: 'dummy'
+          pass: 'P@$$word12'
       }
       
   });
