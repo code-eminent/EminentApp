@@ -18,13 +18,14 @@ body {
   color: #09C6AB;
   background: #fff;
 }
-#name h4{
-  margin-top: 15px;
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 20px;
+#name h3{
+  margin-left: -50px !important;
+  margin-top: 20px;
+  font-family: "Work Sans", Arial, sans-serif;
+  font-size: 25px;
    font-style: normal; 
    font-variant: normal;
-    font-weight: 700; 
+    font-weight: 600; 
     line-height: 26.4px;  
   /* margin-left: 20px !important; */
 }
@@ -32,19 +33,32 @@ body {
   #name{
     margin-top: 15px;
   margin-left: 120px !important;
- font-family: 'Times New Roman', Times, serif;
-  font-size: 24px;
+ font-family: "Work Sans", Arial, sans-serif;
+  font-size: 15px;
    font-style: normal; 
    font-variant: normal;
     font-weight: 700; 
     line-height: 26.4px;  
   }
 }
+
+@media screen and (max-width: 980px) {
+  #name h3{
+    margin-top: 25px;
+  margin-left: -10px !important;
+ font-family: "Work Sans", Arial, sans-serif;
+  font-size:18px;
+   font-style: normal; 
+   font-variant: normal;
+    font-weight:700; 
+    line-height: 20px;  
+  }
+}
 @media screen and (max-width: 768px) {
-  #name h4{
+  #name h3{
     margin-top: 5px;
   margin-left: -80px !important;
- font-family: 'Times New Roman', Times, serif;
+ font-family: "Work Sans", Arial, sans-serif;
   font-size:15px;
    font-style: normal; 
    font-variant: normal;
@@ -60,28 +74,57 @@ body {
   height: 70px;
   margin-left: -20px !important;
 }
+
+@media screen and (max-width: 768px) {
+  .header-logo img {
+    width: 70px;
+    height: 70px;
+    margin-left: -30px !important;
+  }
+}
+
 #about {
   
-  margin-left: -30px;
+  margin-left: -120px;
+}
+
+@media screen and (max-width: 980px) {
+  #about img {
+    width: 400px;
+    height: 250px;
+    margin-left: 95px !important;
+    margin-top: 20px;
+    /* padding-left: -180px; */
+  }
 }
 @media screen and (max-width: 768px) {
   #about img {
     width: 400px;
     height: 250px;
-    margin-right: -250px !important;
-
+    margin-left: 95px !important;
+   margin-top: 250px;
   }
 }
 #courses{
-  margin-right: 30px;
-  padding-left:60px;
+  margin-right: 50px;
+  padding-left:120px;
+}
+
+@media screen and (max-width: 980px) {
+  #courses img {
+    width: 550px;
+    height: 250px;
+    margin-left:270px;
+    margin-top: -270px;
+
+  }
 }
 
 @media screen and (max-width: 768px) {
   #courses img {
     width: 400px;
     height: 250px;
-    margin-left: -70px !important;
+    margin-left: -130px !important;
 
   }
 }
@@ -183,17 +226,28 @@ h1, h2, h3, h4, h5, h6, figure {
   #button  {
    
     margin-left: -20px !important;
-
+padding : -2px  15px;
   }
 }
 
 #top{
-  background:rgba(0, 0, 0, 0.7);
+  /* background:rgba(0, 0, 0, 0.7); */
+  background:black;
   color: #e0e0e0;
  
 }
 #top-menu{
   background:rgba(9, 198, 171, 0.9);
+}
+.menu{
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+ 
+   font-style: normal; 
+   font-variant: normal;
+    font-weight: 700; 
+    line-height: 26.4px;   
 }
 #text{
   background:  #fff;
@@ -240,6 +294,17 @@ h1, h2, h3, h4, h5, h6, figure {
 .fh5co-nav a {
   padding: 5px 10px;
   color: #fff;
+}
+.menu-1{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 980px) {
+ .menu-1 {
+  margin-top: 18px;
+   font-size: 10px;
+    color:#09C6AB;
+  }
 }
 @media screen and (max-width: 768px) {
   .fh5co-nav .menu-1 {
@@ -432,7 +497,8 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .fh5co-cover {
-  height:300px;
+  margin-top: -28px;
+  height:100px;
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
@@ -441,6 +507,9 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 100%;
   background: #46b8da;
 
+}
+#btn-software{
+background:rgba(9, 198, 171, 0.9);
 }
 .fh5co-cover .overlay {
   z-index: 0;
@@ -470,14 +539,27 @@ h1, h2, h3, h4, h5, h6, figure {
   margin-top: 150px;
   margin-bottom: 30px;
 }
+
+
+.fh5co-cover.fh5co-cover-md .display-t,
+.fh5co-cover.fh5co-cover-md .display-tc {
+  z-index: 9;
+  height: 400px;
+  display: table;
+  width: 100%;
+  margin-top: 150px;
+  margin-bottom: 30px;
+}
+
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
     height:400px;
   }
 }
+/* to change heading in blog cand eb */
 .fh5co-cover.fh5co-cover-sm {
-  height: 100px;
+  height: 200px;
  
 }
 /* mobile settting for course */
@@ -576,7 +658,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .btn.btn-learn,
 #fh5co-counter .display-tc .btn.btn-learn,
 .fh5co-cover .display-tc .btn.btn-learn {
-  background: deepskyblue;
+  background: black;
   border: none;
 }
 #fh5co-header .display-tc .btn.btn-learn:hover, #fh5co-header .display-tc .btn.btn-learn:focus,
@@ -590,6 +672,7 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-header .display-tc .btn:hover,
 #fh5co-counter .display-tc .btn:hover,
 .fh5co-cover .display-tc .btn:hover {
+  /* background: #EA9215 !important; */ 
   background: #EA9215 !important;
   -webkit-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
   -moz-box-shadow: 0px 14px 30px -15px rgba(0, 0, 0, 0.75) !important;
@@ -685,6 +768,7 @@ h1, h2, h3, h4, h5, h6, figure {
   background: #fff;
   margin-top: 600px;
   height: 150px;
+  margin-top: 520px;
 }
 
 .mt {
