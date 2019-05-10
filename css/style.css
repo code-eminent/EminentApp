@@ -165,7 +165,7 @@ body {
     .practice-area .icon span {
       font-size: 80px;
       margin-left: 60px;
-      x
+      
       }
       .practice-area .icon span:before {
         font-size: 90px;
@@ -183,53 +183,81 @@ body {
         margin: 0 auto;
         width: 130px;
         height: 130px;
-        margin-top: 50px;
+        margin-top: 40px;
+       
       }
       .area .icon span {
         font-size: 50px;
         margin-left: -15px;
+        
       
         }
         .area .icon span:before {
-          font-size: 50px;
+          font-size: 60px;
           -moz-transition: all 0.3s ease;
           -o-transition: all 0.3s ease;
           -webkit-transition: all 0.3s ease;
           -ms-transition: all 0.3s ease;
           transition: all 0.3s ease;
-          color: #1eaaf1;
+          color: #fff;
+        
          }
+         @media screen and (max-width: 768px) {
+
+          .area .icon{
+            margin: 0 auto;
+            width: 80px;
+            height: 80px;
+            margin-top: 50px;
+           
+          }
+          .area .icon span {
+            font-size: 60px;
+           
+            margin-left: -15px;
+            
+          
+            }
+            .area .icon span:before {
+              font-size: 60px;
+              -moz-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              -webkit-transition: all 0.3s ease;
+              -ms-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+              color: #fff;
+              padding-top: 20px ;
+             }
+         }
+
       @media screen and (max-width: 768px) {
         .practice-area {
           display: block;
           margin-bottom: 30px; }
           .practice-area .icon {
             margin: 0 auto;
-            width: 100px;
-            height: 100px;
+            width: 50px;
+            height: 50px;
             margin-bottom: 10px;
-            /* background: #f8f9fa; */
+           
             background: #09C6AB;
-            /* border: 1px solid #eac15a; */
+          
             -moz-transition: all 0.3s ease;
             -o-transition: all 0.3s ease;
             -webkit-transition: all 0.3s ease;
             -ms-transition: all 0.3s ease;
             transition: all 0.3s ease;
-            /* -webkit-border-radius: 50%;
-            -moz-border-radius: 50%;
-            -ms-border-radius: 50%;
-            border-radius: 50%;  */
+         
           }
             .practice-area .icon span {
-              font-size: 50px;
+              font-size: 30px;
               }
               .practice-area .icon span:before {
-                font-size: 50px;
+                font-size: 30px;
                 color: black;
                }
           .practice-area h3 {
-            font-size: 50px; }
+            font-size: 20px; }
             .practice-area h3 a {
               color: #000000; }
       }
@@ -252,22 +280,58 @@ background-color: #09C6AB;
 transition: all 0.3s ease;
 
 }
-.ftco-section1 img:hover {
+/* .ftco-section1 img:hover {
   background: black; 
   
 
-}
+} */
   .practice-area:hover .icon span, .practice-area:focus .icon span {
     color: #000000; }
   @media (max-width: 767.98px) {
     .ftco-section1 {
-      padding: 1em 0; }
+      /* padding: 1em 0; */
+    } 
+      
+.ftco-section1 img {
+ mARGIN-left: -40px;
+  /* position: relative;  */
+  height:90px;
+  width:120px;
+background-color: #09C6AB;
+-moz-transition: all 0.3s ease;
+-o-transition: all 0.3s ease;
+-webkit-transition: all 0.3s ease;
+-ms-transition: all 0.3s ease;
+transition: all 0.3s ease;
+
+}
+#eminent{
+  margin-top: -60px;
+  margin-left: 13%;
+  font-style: normal; 
+  font-variant: normal;
+   font-weight: 900; 
+   font-family: "Work Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 30px; 
+  background-color: #09C6AB; 
+}
+.ftco-section1 .col-md-3 {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 20%;
+  flex: 0 0 20%;
+  max-width: 10%; 
+max-height: 250px;
+border: 100px;
+border-color: #1eaaf1;
+}
      }
 
 #about {
   
   margin-right: 120px;
   width: 100%;
+ 
 }
 
 @media screen and (max-width: 980px) {
@@ -280,11 +344,11 @@ transition: all 0.3s ease;
   }
 }
 @media screen and (max-width: 768px) {
-  #about img {
-    width: 400px;
+  #about  {
+    width: 100%;
     height: 250px;
-    margin-left: 95px !important;
-   margin-top: 250px;
+    margin-left:10px !important;
+   margin-top: 50px;
   }
 }
 #courses{
@@ -411,15 +475,17 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #button{
-  margin-top: 20px;
-  margin-left: 35%;
+  padding-top: 30px;
+  margin-right: 30%;
 }
 
 @media screen and (max-width: 768px) {
   #button  {
    
-    margin-left: -20px !important;
+    margin-left: 20% !important;
 padding : -2px  15px;
+font-size: 10px;
+
   }
 }
 
@@ -748,7 +814,7 @@ background:rgba(9, 198, 171, 0.9);
 @media screen and (max-width: 768px) {
   .fh5co-cover .display-t,
   .fh5co-cover .display-tc {
-    height:400px;
+    height:500px;
   }
 }
 /* to change heading in blog cand eb */
@@ -962,7 +1028,15 @@ background:rgba(9, 198, 171, 0.9);
   background: #fff;
   /* margin-top: 650px; */
   height: 150px;
-  margin-top: 580px;
+  margin-top: 620px;
+}
+@media  screen and (max-width: 768px){
+  #marquee{
+    background: #fff;
+    /* margin-top: 650px; */
+    height: 125px;
+    margin-top: 1300px;
+  }
 }
 
 .mt {
@@ -1214,6 +1288,78 @@ background:rgba(9, 198, 171, 0.9);
 #course img{
   margin-left: 10%;
 }
+@media  screen and (max-width: 768px){
+  #course img{
+    margin-left: -8%;
+  }
+}
+@media  screen and (max-width: 768px){
+  #fh5co-explore .fh5co-explore1 {
+    margin-bottom: 7em;
+    background:  #fff;
+ 
+  }
+  .fh5co-explore1 img{
+    margin-left: 30%;
+  }
+  .fh5co-explore1 h1{
+    margin-left: 10%;
+    margin-bottom: -20px;
+  }
+  
+.mt {
+  margin-top: 30px;
+  background: #fff;
+}
+.mt h3 {
+  position: relative;
+  padding-left: 10px;
+  font-size: 25px;
+}
+.mt p{
+  position: relative;
+  padding-left: 5px;
+  font-size: 15px;
+}
+.mt h4 {
+  position: relative;
+  padding-left: 40px;
+  font-size: 20px;
+}
+.mt h4 i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #EA9215;
+}
+
+
+.mt > div {
+  margin-bottom: 40px;
+}
+.mt .list-nav {
+  margin: 20px 0 30px 0;
+  padding: 0;
+}
+.mt .list-nav li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  position: relative;
+}
+.mt .list-nav li i {
+  position: absolute;
+  left: 0;
+  top: 0;
+  font-size: 18px;
+  color: #EA9215;
+}
+
+}
+
 .fh5co-heading p {
   font-size: 18px;
   line-height: 1.5;
@@ -1871,11 +2017,11 @@ background:rgba(9, 198, 171, 0.9);
 }
 
 .btn {
-  margin-right: 4px;
-  margin-bottom: 4px;
+  margin-right: 1px;
+  margin-bottom: 1px;
   font-family: "Work Sans", Arial, sans-serif;
-  font-size: 16px;
-  font-weight: 400;
+  font-size: 10px;
+  font-weight: 100;
   -webkit-border-radius: 30px;
   -moz-border-radius: 30px;
   -ms-border-radius: 30px;
@@ -2116,19 +2262,21 @@ width: 100% ;
 .media-body {
   width: 100%;
   -webkit-box-flex: 1;
+  
   -ms-flex: 1;
   flex: 1; }
   .text-center1 {
   text-align: center !important; }
 .home-slider {
     position: relative;
-    height: 220px;
+    height: 320px;
     z-index: 0; }
     .home-slider .slider-item {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center center;
-      height: 220px;
+      height: 270px;
+      
       position: relative;
       z-index: 0; }
       @media (max-width: 1199.98px) {
@@ -2140,17 +2288,19 @@ width: 100% ;
         bottom: 0;
         left: 0;
         right: 0;
-        background: #000000;
+        background: seashell;
         opacity: .2; }
 		  .topper .icon1 {
     width: 30px;
     height: 30px;
+    
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     border-radius: 50%; }
     .topper .icon1 span {
-      color: #fff; }
+      color: #fff;
+     }
       .home-slider .slider-item .slider-text {
         height: 250px; }
         @media (max-width: 767.98px) {
@@ -2252,12 +2402,31 @@ width: 100% ;
         height: 10px;
         margin: 5px;
         border-radius: 50%;
+        
         background: #1eaaf1; }
         .home-slider .owl-dots .owl-dot.active {
           background: #fff; }
           #readmore{
-  
-            margin-left: 50%;
+           margin-top: -60px;  
+            margin-left: 20%;
+            text-align: right;
+            font-size: 15px;
+            /* border: 2px solid red; */
+            padding: 10px;
+            border-radius: 1em ;
+
+          }
+          @media (max-width: 767.98px){
+            #readmore{
+           margin-top: -60px;  
+            margin-left: 20%;
+            text-align: right;
+            font-size: 10px;
+            /* border: 2px solid red; */
+            padding: 10px;
+            border-radius: 1em ;
+
+          }
           }
           #d-flex1 {
             display: -webkit-box !important;
@@ -2280,8 +2449,24 @@ width: 100% ;
               -ms-flex: 0 0 25%;
               flex: 0 0 25%;
               max-width: 25%; 
-            max-height: 180px}
+            max-height: 250px;
+            border: 100px;
+          border-color: #1eaaf1;
+        }
+        @media (max-width: 767.98px) {
+          .col-md-3 {
+           
+            -webkit-box-flex: 0;
             
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+            max-width: 100%; 
+          max-height: 450px;
+          border: 100px;
+          padding: 10px;
+        border-color: #1eaaf1;
+      }
+        }
           .ftco-animate1 {
             opacity: 0;
             visibility: hidden; }
@@ -2298,7 +2483,7 @@ width: 100% ;
             background: #fff !important; }
           
           .bg-primary {
-            background: #1eaaf1; 
+            background: black; 
           
           }
           
@@ -2306,18 +2491,20 @@ width: 100% ;
             background: #fda638 ; }
           
           .bg-tertiary {
-            background: #8cc152; }
+            background: rgba(0, 0, 0, 0.8);; }
           
           .bg-quarternary {
-            background: #f1453d; }
+            background: rgba(0, 0, 0, 0.8);; }
           
           .bg-fifth {
-            background: #5d50c6; }
+            background: black; }
           
           .ftc-no-pb {
             padding-bottom: 0 !important; }
              .btn.btn-secondary {
-              background: #fda638;
+               margin-left: 50%;
+               font-size: 10px;
+              background: teal;
               border: 1px solid #fda638;
               color: #fff; }
               .btn.btn-secondary:hover, .btn.btn-secondary:focus, .btn.btn-secondary:active {
@@ -2326,7 +2513,10 @@ width: 100% ;
               .mb-4,
           .my-4 {
             margin-bottom: 1.5rem !important; 
-          text-align: center;}
+          text-align: center;
+          margin-top: 20px;
+          /* margin-left: 25%; */
+        }
             
 .p-2 {
   padding: 0.5rem !important; }
@@ -2338,7 +2528,8 @@ width: 100% ;
   -webkit-box-flex: 0;
   -ms-flex: 0 0 66.66667%;
   flex: 0 0 66.66667%;
-  max-width: 66.66667%; }      
+  max-width: 66.66667%;
+ }      
 		  		  
 .ftco-services {
   width:100%;
@@ -2347,7 +2538,10 @@ width: 100% ;
   .ftco-services .services {
     display: block;
     width: 100%;
-	margin-top: -20px;
+    
+  margin-top: -20px;
+  border: 5px;
+  border-color: #1eaaf1;
     position: relative;
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
@@ -2357,9 +2551,11 @@ width: 100% ;
     .ftco-services .services .icon {
       line-height: 1.3;
       position: relative;
-      width: 80px;
-      height: 80px;
-      background: #fff;
+      width: 90px;
+      height: 90px;
+      border: 5px;
+      border-color: #1eaaf1;
+      background: #43525f;
       margin: 0 auto;
       margin-top: -60px;
       -webkit-border-radius: 50%;
@@ -2368,25 +2564,218 @@ width: 100% ;
       border-radius: 50%; }
       .ftco-services .services .icon span {
         font-size: 50px;
-      
-        color: #1eaaf1; }
+        border: 5px;
+          border-color: #1eaaf1;
+        color: #fff; }
     .ftco-services .services .media-body {
       /* color: rgba(255, 255, 255, 0.8); */
-    color:#fff; }
+    color:#fff; 
+  }
+  .ftco-services .services .media-body  ul {
+    /* color: rgba(255, 255, 255, 0.8); */
+  color:#fff; 
+  text-align: left;
+}
+  .ftco-services .services p{
+    line-height: 1.3; 
+  }
+  .ftco-services .services p a {
+    color: #FFF;
+    background-color:#46b8da;
+    font-size: 15px;
+    position: relative;
+    /* width: 100px;
+    height: 50px; */
+    text-align: right;
+    padding-right: 1.5rem !important;
+    /* border: 2px solid red; */
+            padding: 10px;
+            border-radius: 1em ;
+  }
+
+  @media (max-width: 991.98px) {
+        .ftco-services .services .media-body {
+          padding-bottom: 3.5em !important; 
+          height: 155px;
+          display: block;
+          margin-bottom: 30px;
+          margin-top: -80px;
+          text-align: left;
+        }
+
+
+          .ftco-services .services p a {
+
+            
+
+            color: #FFF;
+            background-color:#46b8da;
+            font-size: 10x;
+            position: relative;
+            /* width: 100px;
+            height: 50px; */
+            text-align: right;
+            padding-right: 1.5rem !important;
+            /* border: 2px solid red; */
+                    padding: 10px;
+                    border-radius: 1em ;
+          }
+              .ftco-services .services .icon {
+                line-height: 1.2;
+                position: relative;
+                margin: 0 auto;
+                width: 70px;
+                height: 70px;
+                margin-bottom: -10px;
+                -moz-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                -webkit-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+                background: #43525f;
+                margin: 0 auto;
+                margin-top: -60px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                border-radius: 50%; }
+                .ftco-services .services .icon span {
+                  font-size: 50px;
+                  margin-top: 30px;
+                  color: #1eaaf1; }
+        
+                  .ftco-services .services .icon span:before {
+                    font-size: 50px;
+                   
+                    color: #fff; }
+        }
       @media (max-width: 767.98px) {
         .ftco-services .services .media-body {
-          padding-bottom: 3.5em !important; } }
+          padding-bottom: 3.5em !important; 
+          height: 125px;
+          display: block;
+          margin-bottom: 30px;
+          margin-top: 90px;
+          text-align: left;
+        }
+
+
+          .ftco-services .services p a {
+
+            
+
+            color: #FFF;
+            background-color:#46b8da;
+            font-size: 15px;
+            position: relative;
+            /* width: 100px;
+            height: 50px; */
+            text-align: right;
+            padding-right: 1.5rem !important;
+            /* border: 2px solid red; */
+                    padding: 10px;
+                    border-radius: 1em ;
+          }
+              .ftco-services .services .icon {
+                line-height: 1.2;
+                position: relative;
+                margin: 0 auto;
+                width: 70px;
+                height: 70px;
+                margin-bottom: -10px;
+                -moz-transition: all 0.3s ease;
+                -o-transition: all 0.3s ease;
+                -webkit-transition: all 0.3s ease;
+                -ms-transition: all 0.3s ease;
+                transition: all 0.3s ease;
+                background: #43525f;
+                margin: 0 auto;
+                margin-top: -30px;
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                -ms-border-radius: 50%;
+                border-radius: 50%; }
+                .ftco-services .services .icon span {
+                  font-size: 50px;
+                  margin-top: 30px;
+                  color: #1eaaf1; }
+        
+                  .ftco-services .services .icon span:before {
+                    font-size: 50px;
+                   
+                    color: #fff; }
+        }
+        
+       
+      .area .icon{
+        margin: 0 auto;
+        width: 130px;
+        height: 130px;
+        margin-top: 80px;
+       
+      }
+      .area .icon span {
+        font-size: 50px;
+        margin-left: -15px;
+        
+      
+        }
+        .area .icon span:before {
+          font-size: 60px;
+          -moz-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+          color: #fff;
+        
+         }
+         @media screen and (max-width: 768px) {
+
+          .area .icon{
+            margin: 0 auto;
+            width: 80px;
+            height: 80px;
+            margin-top: -30px;
+           
+          }
+          .area .icon span {
+            font-size: 40px;
+           
+            margin-left: -15px;
+            
+          
+            }
+            .area .icon span:before {
+              font-size: 60px;
+              -moz-transition: all 0.3s ease;
+              -o-transition: all 0.3s ease;
+              -webkit-transition: all 0.3s ease;
+              -ms-transition: all 0.3s ease;
+              transition: all 0.3s ease;
+              color: #fff;
+              /* padding-top: 20px ; */
+              margin-top: 30px;
+             }
+         }
+
+
       .ftco-services .services .media-body h3 {
         font-weight: 500;
         font-size: 22px;
-        color: #fff; }
+        color: #fff;
+        border: 5px;
+        border-color: #1eaaf1;
+       }
 
 .pr-4,
 .px-4 {
   padding-right: 1.5rem !important;
+  
  }
 
 .pb-4,
 .py-4 {
   padding-bottom: 1.5rem !important;
+  
  }
