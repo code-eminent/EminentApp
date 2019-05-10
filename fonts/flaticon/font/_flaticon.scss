@@ -1,0 +1,68 @@
+    /*
+    Flaticon icon font: Flaticon
+    Creation date: 24/04/2019 12:29
+    */
+
+    @font-face {
+  font-family: "Flaticon";
+  src: url("./Flaticon.eot");
+  src: url("./Flaticon.eot?#iefix") format("embedded-opentype"),
+       url("./Flaticon.woff2") format("woff2"),
+       url("./Flaticon.woff") format("woff"),
+       url("./Flaticon.ttf") format("truetype"),
+       url("./Flaticon.svg#Flaticon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: "Flaticon";
+    src: url("./Flaticon.svg#Flaticon") format("svg");
+  }
+}
+
+    .fi:before{
+        display: inline-block;
+  font-family: "Flaticon";
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  line-height: 1;
+  text-decoration: inherit;
+  text-rendering: optimizeLegibility;
+  text-transform: none;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+    }
+
+    .flaticon-web-design:before { content: "\f100"; }
+.flaticon-design:before { content: "\f101"; }
+.flaticon-monitor:before { content: "\f102"; }
+.flaticon-testing:before { content: "\f103"; }
+.flaticon-diploma:before { content: "\f104"; }
+.flaticon-web-development:before { content: "\f105"; }
+.flaticon-seo-and-web:before { content: "\f106"; }
+.flaticon-business:before { content: "\f107"; }
+.flaticon-chat:before { content: "\f108"; }
+.flaticon-statistics:before { content: "\f109"; }
+.flaticon-business-and-finance:before { content: "\f10a"; }
+.flaticon-graph:before { content: "\f10b"; }
+.flaticon-laptop:before { content: "\f10c"; }
+.flaticon-briefcase-frontal-view:before { content: "\f10d"; }
+    
+    $font-Flaticon-web-design: "\f100";
+    $font-Flaticon-design: "\f101";
+    $font-Flaticon-monitor: "\f102";
+    $font-Flaticon-testing: "\f103";
+    $font-Flaticon-diploma: "\f104";
+    $font-Flaticon-web-development: "\f105";
+    $font-Flaticon-seo-and-web: "\f106";
+    $font-Flaticon-business: "\f107";
+    $font-Flaticon-chat: "\f108";
+    $font-Flaticon-statistics: "\f109";
+    $font-Flaticon-business-and-finance: "\f10a";
+    $font-Flaticon-graph: "\f10b";
+    $font-Flaticon-laptop: "\f10c";
+    $font-Flaticon-briefcase-frontal-view: "\f10d";

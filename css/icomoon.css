@@ -1569,3 +1569,20 @@
 .icon-youtube:before {
   content: "\ea80";
 }
+
+.icon-amazonaws:before {
+  content: "\e900";
+}
+.icon-python:before {
+  content: "\e901";
+  color: #3776ab;
+}
+.icon-document-file-sql:before {
+  content: "\e902";
+}
+.icon-document-file-java:before {
+  content: "\e903";
+}
+.icon-android:before {
+  content: "\eac0";
+}
