@@ -135,7 +135,7 @@
   }
   
   a {
-    color: #EA9215;
+    color: #09C6AB;
     -webkit-transition: 0.5s;
     -o-transition: 0.5s;
     transition: 0.5s;
@@ -457,7 +457,7 @@
     color: rgba(0, 0, 0, 0.3);
   }
   .fh5co-blog .blog-text span.comment a i {
-    color: #EA9215;
+    color: #09C6AB;
     padding-left: 7px;
   }
   .fh5co-blog .blog-text h3 {
@@ -481,27 +481,65 @@
     font-size: 15px;
   }
   
-  .active, .collapsible:hover {
-    background-color: #555;
-  }
-  
-  .collapsible:after {
+  #toggle{
+      background-color: #fff;
+    color: #09C6AB;
     content: '\002B';
+    cursor: pointer;
+    padding: 11px;
+    width: 100%;
+    max-height: 10px;
+    border-collapse: collapse ;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    
+  }
+ #toggle h2{
+   margin-top: -10px;
+   margin-left: -12px;
+ }
+ #toggle:hover{
+  background-color: #fff;
+  color: #000;
+ }
+ .zero-space
+{
+    padding: 0 !important;
+}
+  #toggle a:after {
+  
     color: #09C6AB;
     font-weight: bold;
     float: right;
     margin-left: 5px;
   }
   
-  .active:after {
+  #toggle a:hover, a:active, a:focus {
+    color: #09C6AB;
     content: "\2212";
+    outline: none;
+    text-decoration: none;
   }
   
+
+  #toggle a:hover {
+    content: "\2212";
+    color:#000;
+  }
+  
+ #toggle a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+
   .content {
     padding: 0 18px;
     max-height: 0;
     overflow: hidden;
     transition: max-height 0.2s ease-out;
-    background-color: #f1f1f1;
+    background-color: #0000;
   }
  
