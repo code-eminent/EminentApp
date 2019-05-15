@@ -3,10 +3,10 @@
       function getCourse(){
 			var angular = document.getElementById("10");
 			var html = document.getElementById("11");
-			var angular = document.getElementById("12");
-			var html = document.getElementById("13");
-			var angular = document.getElementById("14");
-			var html = document.getElementById("15");
+			var React = document.getElementById("12");
+			var jscript = document.getElementById("13");
+			var Pug = document.getElementById("14");
+			var jquery = document.getElementById("15");
 
 if(angular != null){
 			
