@@ -139,33 +139,55 @@
         <div class="row">
           <div class="col-lg-6 col-md-6">
             <div class="fh5co-blog animate-box">
-              <a href="#"><img class="img-responsive" src="images/Web Designing.jpg" alt=""></a>
+              <a href="#"><img class="img-responsive" src="images/web-design.jpg" alt=""></a>
               <div class="blog-text">
                 <h3><a href="#">Web Designing</a></h3>
                	
-                <ul style="list-style-type:square;">
-                    <button class="collapsible" onclick="getCourse(this.id)" id="10" >Angular JS</button>
-                    <div class="content">
-                        <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> -->
-                        <ul id="10">
-                        </ul>
-                       
+                <ol style="list-style-type:1;">
+                 <div class="panel-group zero-space" >
+                        <div class=" panel-default">
+                          <!-- for angular -->
+                          <div class="panel-heading"  id="toggle">
+                            <h2 class="panel-title" >
+                             <li>
+                              <a data-toggle="collapse" onclick="getCourse()" href="#10">Angular JS</a></li>
+                             
+                               </h2>
+                          </div>
+                          <div id="10" class="panel-collapse collapse">
+                            <ol class="list-group" type="1">
+                           
+                            </ol>
+                           
+                          </div>
+                             <!-- for html -->
+                          <div class="panel-heading"  id="toggle">
+                              <h2 class="panel-title" >
+                               <li>
+                                <a data-toggle="collapse" onclick="getCourse()" href="#11">HTML and JS</a></li>
+                               
+                                 </h2>
+                            </div>
+                            <div id="11" class="panel-collapse collapse">
+                              <ol class="list-group" type="1">
+                             
+                              </ol>
+                             
+                            </div>
 
+                          <li onclick="getCourse(this.id)" id="12">React with Redux</li>
+                          <li onclick="getCourse(this.id)" id="13">Java Script</li>
+                          <li onclick="getCourse(this.id)" id="14">Pug</li>
+                          <li onclick="getCourse(this.id)" id="15">JQuery</li>
+                        </div>
                       </div>
-                     
-                    <li onclick="getCourse(this.id)" id="10">Angular JS</li>
-                    <li onclick="getCourse(this.id)" id="11">HTML and JS</li>
-                    <li onclick="getCourse(this.id)" id="12">React with Redux</li>
-                    <li onclick="getCourse(this.id)" id="13">Java Script</li>
-                    <li onclick="getCourse(this.id)" id="14">Pug</li>
-                    <li onclick="getCourse(this.id)" id="15">JQuery</li>
-                  </ul>
+                  </ol>
               </div> 
             </div>
           </div>
 
            <div class="col-lg-6 col-md-6">
-            <div class="fh5co-blog animate-box">
+            <div class="fh5co-blog animate-box zero-space">
               <a href="#"><img class="img-responsive" src="images/project-3.jpg" alt=""></a>
               <div class="blog-text">
                 <h3><a href=""#>Programming Languages</a></h3>
@@ -237,6 +259,24 @@
                           <li>VPC</li>
                           <li>AWS Lambda</li>
                           <li>AWS Glue</li>
+                       
+                        </ul>
+                    </div> 
+                  </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6">
+                  <div class="fh5co-blog animate-box">
+                    <a href="#"><img class="img-responsive" src="images/project-3.jpg" alt=""></a>
+                    <div class="blog-text">
+                      <h3><a href=""#>Testing</a></h3>
+                      <ul style="list-style-type:square;">
+                          <li>JUnit Testing</li>
+                          <li>Selenium</li>
+                          <li>QTP</li>
+                          <li>Ranorex</li>
+                          <li>LoadRunner</li>
+                          <li>Silk Performer</li>
                        
                         </ul>
                     </div> 
