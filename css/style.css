@@ -59,6 +59,17 @@ body {
   line-height: 26.4px; 
   background-color: #09C6AB; 
 }
+#eminent1{
+  margin-top: 5px;
+  /* margin-left: 13%; */
+  font-style: normal; 
+  font-variant: normal;
+   font-weight: 900; 
+   font-family: "Work Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px; 
+  background-color: #09C6AB; 
+}
 @media screen and (max-width: 980px) {
   #name h3{
     margin-top: 25px;
@@ -250,14 +261,19 @@ body {
          
           }
             .practice-area .icon span {
-              font-size: 30px;
+              font-size: 50px;
+              margin-right: 30%;
               }
               .practice-area .icon span:before {
-                font-size: 30px;
+                font-size: 60px;
+                margin-left: 60px;
                 color: black;
                }
-          .practice-area h3 {
-            font-size: 20px; }
+          .practice-area h5 {
+            margin-left: 120px;
+            margin-top: 40px;
+            font-weight: 500;
+            font-size: 15px; }
             .practice-area h3 a {
               color: #000000; }
       }
@@ -306,14 +322,25 @@ transition: all 0.3s ease;
 
 }
 #eminent{
-  margin-top: -60px;
+  margin-top: -75px;
   margin-left: 13%;
   font-style: normal; 
   font-variant: normal;
-   font-weight: 900; 
+   font-weight: 700; 
    font-family: "Work Sans", Arial, sans-serif;
   font-size: 15px;
-  line-height: 30px; 
+  line-height: 20px; 
+  background-color: #09C6AB; 
+}
+#eminent1{
+  margin-top: -20px;
+  margin-left: 13%;
+  font-style: normal; 
+  font-variant: normal;
+   font-weight: 700; 
+   font-family: "Work Sans", Arial, sans-serif;
+  font-size: 15px;
+  line-height: 20px; 
   background-color: #09C6AB; 
 }
 .ftco-section1 .col-md-3 {
@@ -978,8 +1005,14 @@ background:rgba(9, 198, 171, 0.9);
   #fh5co-contact,
   #fh5co-footer {
     padding: 3em 0;
-    margin-top: -10px;
+    margin-top: 10px;
  
+  }
+  .fh5co-heading p {
+    font-size: 15px;
+    line-height: 1.5;
+    text-align: left;
+    color:#09C6AB;
   }
 }
 
@@ -1622,6 +1655,7 @@ background:rgba(9, 198, 171, 0.9);
   .fh5co-blog {
     width: 100%;
   }
+
 }
 .fh5co-blog .blog-text {
   margin-bottom: 30px;
@@ -1656,6 +1690,54 @@ background:rgba(9, 198, 171, 0.9);
 .fh5co-blog .blog-text h3 a {
   color: black;
 }
+
+#toggle{
+  background-color: #fff;
+color: #09C6AB;
+content: '\002B';
+cursor: pointer;
+padding: 18px;
+width: 100%;
+max-height: 10px;
+border-collapse: collapse ;
+text-align: left;
+outline: none;
+font-size: 15px;
+
+}
+#toggle h2{
+margin-top: -10px;
+margin-left: -12px;
+}
+#toggle:hover{
+background-color: #fff;
+color: #000;
+}
+.zero-space
+{
+padding: 0 !important;
+}
+#toggle a:after {
+
+color: #09C6AB;
+font-weight: bold;
+float: right;
+margin-left: 5px;
+}
+
+#toggle a:hover, a:active, a:focus {
+color: #09C6AB;
+content: "\2212";
+outline: none;
+text-decoration: none;
+}
+
+
+#toggle a:hover {
+content: "\2212";
+color:#000;
+}
+
 
 .pricing {
   display: block;
