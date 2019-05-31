@@ -260,4 +260,22 @@
 	});
 
 
+
+	
 }());
+
+function getCourse(courseId){
+	var id =document.getElementById(courseId);
+	//  alert("id-fgfghfd->"+id.id)
+				document.getElementById(courseId).innerHTML   ="";
+				var names = ['Home','Overview','Environment Setup','Project Setup','Components'];
+					var ul = document.createElement('ol');
+					document.getElementById(courseId).appendChild(ul);
+	 
+					names.forEach(function(name){
+							var li = document.createElement('li');
+							ul.appendChild(li);
+							li.innerHTML += name;
+					});
+
+			}
