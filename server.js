@@ -48,8 +48,8 @@ router.use(function(req, res, next) {
 
     
 router.get('/', function(req, res) {
-	// res.sendFile(__dirname+"/index.html");
-	res.sendFile(__dirname+"/views/index.html");
+	res.sendFile(__dirname+"/index.html");
+	// res.sendFile(__dirname+"/views/index.html");
 	
 	 
 });
